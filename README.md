@@ -1,3 +1,4 @@
 This project enables real-time geolocation sharing between users via web sockets, creating a live collaborative mapping experience. Built with Node.js and Socket.IO, it establishes persistent WebSocket connections that transmit user coordinates to all connected clients. Leaflet.js is used to render the map interface, dynamically placing markers based on incoming location data. The application listens for geolocation updates through the browser’s native API and broadcasts each user’s coordinates with unique identifiers to ensure accurate tracking. The system architecture includes an Express server rendering views with EJS, and all client-side logic is managed through a modular JavaScript frontend. This interactive platform demonstrates real-time communication, geospatial visualization, and efficient data handling across users.
 
 To run Server : npx nodemon app.js
+Then open any Web Browser and type : http://localhost:3000/
